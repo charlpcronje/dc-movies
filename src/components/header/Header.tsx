@@ -18,7 +18,7 @@ const headerNav = [
 ];
 
 const Header: React.FC = () => {
-  const pathname = usePathname();
+    const pathname = usePathname();
     const headerRef = useRef<HTMLDivElement>(null);
     const active = headerNav.findIndex((e) => e.path === pathname);
 
@@ -31,9 +31,9 @@ const Header: React.FC = () => {
             }
         };
 
-      const handleScroll = () => {
-        shrinkHeader();
-      }
+        const handleScroll = () => {
+            shrinkHeader();
+        }
 
 
         window.addEventListener('scroll', handleScroll);
@@ -57,7 +57,7 @@ const Header: React.FC = () => {
                         </li>
                     ))}
                 </ul>
-                <UserModal/>
+                <UserModal />
             </div>
         </div>
     );

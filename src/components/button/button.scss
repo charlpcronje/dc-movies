@@ -11,15 +11,15 @@
         background-color: rgba(#000, 0.8);
     }
     &.small {
-      padding: 5px 10px;
-      font-size: 0.8rem;
+        padding: 5px 10px;
+        font-size: 0.8rem;
     }
     &-outline {
-      background-color: transparent;
-      border: 1px solid #000;
-      color: #000;
-      &:hover {
-        background-color: rgba(#000, 0.1);
-      }
+        background-color: transparent;
+        border: 1px solid #000;
+        color: #000;
+        &:hover {
+            background-color: rgba(#000, 0.1);
+        }
     }
 }
