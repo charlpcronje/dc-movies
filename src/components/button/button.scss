@@ -1,0 +1,25 @@
+.btn {
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: 0;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    &:hover {
+        background-color: rgba(#000, 0.8);
+    }
+    &.small {
+      padding: 5px 10px;
+      font-size: 0.8rem;
+    }
+    &-outline {
+      background-color: transparent;
+      border: 1px solid #000;
+      color: #000;
+      &:hover {
+        background-color: rgba(#000, 0.1);
+      }
+    }
+}
